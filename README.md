@@ -1,4 +1,3 @@
-```
 # Classification Bot
 
 This bot classifies entities (Human, Animal, or Alien) by collecting structured information through a guided conversation. The collected data is sent to a specified Telegram group and saved to Google Sheets for record-keeping.
