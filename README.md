@@ -32,7 +32,7 @@ pip install -r requirements.txt
 The `requirements.txt` file includes:
 
 ```plaintext
-aiogram==3.x
+aiogram
 gspread
 google-auth
 google-auth-oauthlib
