@@ -101,7 +101,6 @@ python classification_bot/main.py
 classification/
 ├── classification_bot/
 │   ├── __init__.py
-│   ├── main.py                # Entry point of the bot
 │   ├── handlers/              # Handlers for different entity types
 │   │   ├── __init__.py
 │   │   ├── human.py
@@ -110,12 +109,21 @@ classification/
 |   |   ├── start.py
 │   ├── utils/                 # Utility files
 │   │   ├── __init__.py
-│   │   ├── last_used_number.txt
-│   │   ├── credentials.json
+│   │   ├── states.py
+│   │   ├── formatting.py
+│   │   ├── id_generator.txt
 │   ├── data/                  # Data storage
 │   │   ├── __init__.py
 │   │   ├── google_sheets.py
+│   ├── keyboards/                  
+│   │   ├── __init__.py
+│   │   ├── inline.py
 │   ├── .env                   # Environment variables
+│   ├── bot.py                # Entry point of the bot
+│   ├── config.py                
+│   ├── loader.py                
+├── credentials.json           
+├── last_used_number.txt           
 ├── requirements.txt           # Python dependencies
 ├── README.md                  # Project documentation
 ├── .gitignore                 # Git ignore file
